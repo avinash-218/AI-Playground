@@ -55,3 +55,22 @@ This repository consists of Machine Learning notebooks for various problem state
 |[Various-Object-Detection](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Various-Object-Detection)||
 |[WHO-Life-Expectancy-Regression](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/WHO-Life-Expectancy-Regression)||
 |[Weight-Prediction-Simple-Linear-Regression](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Weight-Prediction-Simple-Linear-Regression)||
+
+## Unsupervised Learning
+|Title|Description|
+|:---|:---|
+|[Anime-Face-Generation-GAN](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Anime-Face-Generation-GAN)||
+|[Celeba-Face-Generation-GAN](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Celeba-Face-Generation-GAN)||
+|[Clustering-Mall-Customers-Hierarchical](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Clustering-Mall-Customers-Hierarchical)||
+|[Clustering-Mall-Customers-KMeans](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Clustering-Mall-Customers-KMeans)||
+|[Deep-Dream](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Deep-Dream)||
+|[Generating-Images-From-Text-Transfer-Learning-CLIP](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Generating-Images-From-Text-Transfer-Learning-CLIP)||
+|[Iris-Clustering-Dimensionality-Reduction](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Iris-Clustering-Dimensionality-Reduction)||
+|[MNIST-Digits-GAN](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/MNIST-Digits-GAN)||
+|[Shop-Products-Association-Apriori](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Shop-Products-Association-Apriori)||
+|[Shop-Products-Association-Eclat](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Shop-Products-Association-Eclat)||
+|[Style-Transfer](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Style-Transfer)||
+
+## Reinforcement Learning
+
+### Under Construction....
