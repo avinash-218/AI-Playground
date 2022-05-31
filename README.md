@@ -55,7 +55,7 @@
 |[Weight-Prediction-Simple-Linear-Regression](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Weight-Prediction-Simple-Linear-Regression)|Linear Regression|
 
 ## Unsupervised Learning
-|Title|Description|
+|Title|Keywords|
 |:---|:---|
 |[Anime-Face-Generation-GAN](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Anime-Face-Generation-GAN)|Image-Generative Adversarial Network (GAN)-Torch-Wandb-Deep Neural Network(DNN)|
 |[Celeba-Face-Generation-GAN](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Celeba-Face-Generation-GAN)|Image-Generative Adversarial Network (GAN)-Torch-Wandb-Deep Neural Network(DNN)|
