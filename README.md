@@ -4,7 +4,7 @@ This repository consists of Machine Learning notebooks for various problem state
 
 ## Supervised Learning
 |Title|Description|
-|:---:|:---:|
+|:---|:---|
 |[Airline-Passenger-Prediction-RNN-LSTM](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Airline-Passenger-Prediction-RNN-LSTM)||
 |[Annual-Medical-Expense-Prediction-Linear-Regression](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Annual-Medical-Expense-Prediction-Linear-Regression)||
 |[Bank-Customer-Retainment-Prediction-ANN](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Bank-Customer-Retainment-Prediction-ANN)||
