@@ -1,9 +1,9 @@
 # AI-Playground
 
 ## Supervised Learning
-|Title|Keywords|
-|:---|:---|
-|[Airline-Passenger-Prediction-RNN-LSTM](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Airline-Passenger-Prediction-RNN-LSTM)|Neural Network-Recurrent Neural Network (RNN)-Long Short Term Memory (LSTM)-Time Series data|
+|Title|Keywords|Dataset|
+|:---|:---|:---|
+|[Airline-Passenger-Prediction-RNN-LSTM](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Airline-Passenger-Prediction-RNN-LSTM)|Neural Network-Recurrent Neural Network (RNN)-Long Short Term Memory (LSTM)-Time Series data|[AirPassengers](https://www.kaggle.com/datasets/rakannimer/air-passengers)|
 |[Annual-Medical-Expense-Prediction-Linear-Regression](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Annual-Medical-Expense-Prediction-Linear-Regression)|Linear Regression-SGDRegressor-Data Analysis-Visualization-Correlation Analysis-Feature Selection(Brute)-Multiple Regression-Feature Scaling|
 |[Bank-Customer-Retainment-Prediction-ANN](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Bank-Customer-Retainment-Prediction-ANN)|Artificial Neural Network(ANN)-Classification-Grid Search|
 |[Beer-Score-Prediction-Multiple-Linear-Regression](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Beer-Score-Prediction-Multiple-Linear-Regression)|Linear Regression|
