@@ -1,4 +1,4 @@
-# Chatbot-Knowledge-Graph
+# Chatbot-Text-ANN
 
 This work is developed as part of [DeepSphere.AI](https://github.com/Deepsphere-AI). DeepSphere.AI have full ownership and accountability to make any change to these materials.
 
