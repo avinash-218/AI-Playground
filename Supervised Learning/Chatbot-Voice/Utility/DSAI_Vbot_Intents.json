@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "Hey", "What's up", "Are you there?", "Hello", "Hay" ],
+      "responses": [ "Hello! Welcome, I am Jothi. DeepSphere's Chatbot. How can i help you?" ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "See you", "Bye", "See you later", "Goodbye", "catch you later" ],
+      "responses": [ "see you soon", "See you later", "Have a nice day", "Bye! Come back again" ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "I Appreciate it", "So kind of you", "Thanks for the help", "I really appreciate it!!!" ],
+      "responses": [ "Glad to help!", "It's my pleasure", "You're most welcome!", "That's my pleasure'" ]
+    },
+    {
+      "tag": "ask",
+      "patterns": [ "how you doing?", "how are you?", "Hope you are doing good", "You good?" ],
+      "responses": [ "i am doing good, Thanks For Asking! How can I help you?", "So kind of you, I am good!! How are you?" ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [ "Sorry, I can't understand you.", "Can you please elaborate?" ]
+    },
+    {
+      "tag": "name",
+      "patterns": [ "what is your name", "whats your name?", "Who are You?", "How can I call you?", "Do you have a name?" ],
+      "responses": [ "You can call me Jothi.", "I'm Jothi!", "Just call me as Jothi" ]
+    },
+    {
+      "tag": "service",
+      "patterns": [ "Can you list me your organization's service?", "What's DeepSphere's service?", "What is Deepsphere?" ],
+      "responses": [ "DeepSphere.AI is the most powerful AI platform for enterprise to discover invisible financial insights at the deepest level.", "DeepSphere.AI is a cloud-ready, on-demand subscription platform for every enterprise to quickly adapt and advance AI through a progressive AI computing lab, advanced AI education, prebuilt industrial AI POC, and AI data engineering.", "DeepSphere.AI platform brings together business processes, AI, IIoT, and big data, built-on open source technologies and enterprise systems with interoperable capabilities\n on SAP, Oracle, and MS systems." ]
+    },
+    {
+      "tag": "link",
+      "patterns": [ "Can you Send me you website link?", "Send me Deepsphere's website link'" ],
+      "responses": [ "With Pleasure!!! Here's your link, Check it out https://www.deepsphere.ai/" ]
+    },
+    {
+      "tag": "Contact",
+      "patterns": [ "How can I reach your office?", "Send me your office contact number", "Can I get contact number for your office staff?", "How can I contact you?" ],
+      "responses": [ "Feel free to dial : +1 (916)-296-0228", "Feel free to dial : +91 93605 26480", "Contact details are available in the link https://www.dsschoolofai.com/contact.php" ]
+    },
+    {
+      "tag": "newsletter",
+      "patterns": [ "How can I signup to get your newsletter?", "You guys have newsletter?" ],
+      "responses": [ "Go to the last section to signup for newsletters in https://www.deepsphere.ai/" ]
+    },
+    {
+      "tag": "accomplishments",
+      "patterns": [ "What are deepsphere's achievements?", "What are deepsphere's accomplishments?" ],
+      "responses": [ "We are recognized by the US senate and canadian members of parliament", "Several Workshops were conducted by us. Feel free to visit https://www.deepsphere.ai/accomplishments" ]
+    },
+    {
+      "tag": "help",
+      "patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+      "responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+    },
+    {
+      "tag": "Textbook",
+      "patterns": [ "textbooks?", "where can i get my textbooks?", "can you let me know where i can get my books?please" ],
+      "responses": [ "All the reading materials you are required to access are included with your course." ]
+    },
+    {
+      "tag": "askorder",
+      "patterns": [ "Can the courses be done in any order as my wish?", "Should the course be done in a certain order?" ],
+      "responses": [ "We highly recommend completing the courses in the order presented because the content in each course builds on information from earlier lessons." ]
+    },
+    {
+      "tag": "benefits",
+      "patterns": [ "How will I be benefitted?", "What are the benefits of your courses?", "How yours courses will benefit me?" ],
+      "responses": [ "You will get access to comprehensive courses, quizzes and assignment. This will allow you to evaluate your learning and measure your progress." ]
+    },
+    {
+      "tag": "time",
+      "patterns": [ "Do the courses be done in the scheduled time only?", "Can the courses be taken only during the scheduled hours?" ],
+      "responses": [ "No, you can complete the coursework at a time that is most convenient for you!", "No,Feel free to go through the courses at your convienience" ]
+    }
+  ]
+}

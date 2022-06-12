@@ -1,0 +1,41 @@
+@prefix exampleURI: <http://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix relation: <http://purl.org/vocab/relationship/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+exampleURI:LISA a foaf:Person ;
+    exampleURI:Age "48"^^xsd:int ;
+    exampleURI:Character exampleURI:STRICT ;
+    exampleURI:Completed exampleURI:PHD ;
+    exampleURI:Guided exampleURI:JOHN ;
+    exampleURI:Interest exampleURI:DS ;
+    exampleURI:Occupation exampleURI:TEACHER ;
+    exampleURI:Position exampleURI:PRINCIPAL ;
+    exampleURI:Teaches exampleURI:DS,
+        exampleURI:JOHN ;
+    exampleURI:WorksAt exampleURI:MSEC .
+
+exampleURI:MIKE a foaf:Person ;
+    exampleURI:Age "18"^^xsd:int ;
+    exampleURI:Character exampleURI:KIND ;
+    exampleURI:Completed exampleURI:ME ;
+    exampleURI:DoneProject exampleURI:BOOSTING_TECHNIQUES ;
+    exampleURI:Interest exampleURI:CODING ;
+    exampleURI:Occupation exampleURI:STUDENT ;
+    exampleURI:Position exampleURI:INTERN ;
+    exampleURI:StudiesAt exampleURI:TCE ;
+    exampleURI:WorksAt exampleURI:DEEPSPHERE ;
+    relation:friendOf exampleURI:JOHN .
+
+exampleURI:JOHN a foaf:Person ;
+    exampleURI:Age "22"^^xsd:int ;
+    exampleURI:Character exampleURI:FRIENDLY ;
+    exampleURI:Completed exampleURI:BE ;
+    exampleURI:DoneProject exampleURI:CONVERSATIONAL_AI ;
+    exampleURI:Interest exampleURI:BLOGGING ;
+    exampleURI:Occupation exampleURI:STUDENT ;
+    exampleURI:Position exampleURI:INTERN ;
+    exampleURI:StudiesAt exampleURI:MSEC ;
+    exampleURI:WorksAt exampleURI:DEEPSPHERE ;
+    relation:friendOf exampleURI:MIKE .
+

@@ -1,0 +1,101 @@
+.css-qipsc5 {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 22px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 500;
+    padding: 2.25rem 3.75rem;
+    border-radius: 69.25rem;
+    margin: 22px;
+    line-height: 1.6;
+    color: #08289d;
+    background-color: #c7deed;
+    border: 5px solid #4949ad;
+    margin-left: 197px;
+    margin-top: 58px;
+}
+
+h1:first-of-type, h2:first-of-type, h3first-of-type {
+    margin-top: 0.5rem;
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.css-hi6a2p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2px solid #1c29a1;
+    margin: 3pc;
+    border-radius: 20px;
+    padding-top: 2px;
+    background-color: #dff2f5;
+}
+
+.block-container.css-hi6a2p.eknhn3m2 {
+    position: relative;
+    width: 487px;
+}
+/**new-style**/
+.css-1amj8j0.e16nr0p30 h1 {
+    border: 1px solid blue;
+    background: blue;
+}
+button.css-sky1su.edgvbvh1 {
+    padding: 20px;
+    margin: 20px 0px;
+}
+h1 {
+    background: url(logo.jpg);
+}
+
+
+.css-1amj8j0.e16nr0p30 h1 {
+    border: 6px solid #08289d;
+    background: #08289d;
+    margin: -19px;
+    border-radius: 24px;
+    padding: 20px;
+    color: white;
+    text-align: inherit;
+    text-decoration: inherit;
+}/**
+.element-container.css-z8kais.e1tzin5v1:nth-of-type(4) {
+    position: absolute !important;
+    right: -76% !important;
+    top: 9px !important;
+    display: inline-block;
+}**/
+.css-1amj8j0.e16nr0p30 h1:after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    /* background: url(http://localhost:8501/Deepsphere Projects/voice assistant/logo.jpg;
+    background-color: red; */
+    top: 10px;
+    right: 5px;
+    position: absolute;
+    display: inline-block;
+}
+.css-1amj8j0.e16nr0p30 h1{
+    position:relative;
+}
+.css-5h0m38.etr89bj0 img {
+    width: 60px;
+    height: 60px;
+}
+.css-1amj8j0.e16nr0p30 h1 {
+    border: 3px solid #08289d;
+    /* background: #08289d; */
+    margin: -19px;
+    /* background-image: linear-gradient(red, yellow); */
+    /* background-image: linear-gradient(to right, blue, green); */
+    border-radius: 24px;
+    padding: 20px;
+    color: white;
+    text-align: inherit;
+    text-decoration: inherit;
+    background-color: #08289d;;
+}

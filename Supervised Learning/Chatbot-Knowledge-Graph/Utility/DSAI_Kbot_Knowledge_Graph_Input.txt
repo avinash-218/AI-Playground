@@ -1,0 +1,33 @@
+John is a Person
+Mike is a Person
+Lisa is a Person
+John is a Friend of Mike
+Mike is a Friend of John
+John is 22 years old
+Mike is 18 years old
+Lisa is 48 years old
+John has Interest in Blogging
+Mike has Interest in Coding
+Lisa has Interest in DS
+John is a Student
+Mike is a Student
+Lisa is a Teacher
+John is Friendly
+Mike is Kind
+Lisa is Strict
+John Works at Deepsphere
+Mike Works at Deepsphere
+Lisa Works at MSEC
+John's Position is Intern
+Mike's Position is Intern
+Lisa's Position is Principal
+John Studies at MSEC
+Mike Studies at TCE
+Lisa Teaches John
+Lisa Teaches DS
+John Completed BE program
+Mike Completed ME program
+Lisa Completed Phd program
+John done Project in Conversational_AI
+Mike done Project in Boosting_Techniques
+Lisa Guided John

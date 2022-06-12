@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chatbot</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="/static/js/jquery.scrollbar.js"></script>
+    <style>
+      body {
+        font-family: monospace;
+      }
+      h1.chatbox__title {
+       margin: 0;
+    color: #fff;
+    font-size: 20px;
+      }
+      h3 {
+        color: black;
+        font-size: 20px;
+        margin-top: 3px;
+        text-align: center;
+      }
+      #chatbox {
+			margin: 7px;
+      }
+      #userInput {
+        width: 100%;
+        margin-top: 3px;
+
+      }
+#textInput {
+    border: 1px solid #eee;
+    font-family: monospace;
+    font-size: 17px;
+    width: 307px;
+    display: inline-block !important;
+    padding: 15px 20px;
+    margin: 0px;
+}
+    .userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+    padding: 5px 20px;
+}
+      .userText span {
+        background-color: darkblue;
+        padding: 10px;
+        border-radius: 2px;
+      }
+      .botText {
+        color: #000;
+        font-family: monospace;
+        font-size: 17px;
+        text-align: left;
+        line-height: 30px;
+      }
+      .botText span {
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        display: block;
+      }
+      #tidbit {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+      }
+  
+      .box {
+        border: 2px solid black;
+      }
+:focus-visible {
+    outline: none;
+}
+
+
+.chatbox{
+position:relative;
+}
+.chat-sec {
+    position: absolute;
+    width: 350px;
+    right: 30px;
+   }
+.chatbox__header {
+    background: darkblue;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.boxed {
+    border: 1px solid darkblue;
+    background: lightblue;
+}
+
+/*************** SCROLLBAR BASE CSS ***************/
+ 
+.scroll-wrapper {
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: relative;
+}
+ 
+.scroll-wrapper > .scroll-content {
+    border: none !important;
+    box-sizing: content-box !important;
+    height: auto;
+    left: 0;
+    margin: 0;
+    max-height: none;
+    max-width: none !important;
+    overflow: scroll !important;
+    padding: 0;
+    position: relative !important;
+    top: 0;
+    width: auto !important;
+}
+ 
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+ 
+.scroll-element {
+    display: none;
+}
+.scroll-element, .scroll-element div {
+    box-sizing: content-box;
+}
+ 
+.scroll-element.scroll-x.scroll-scrollx_visible,
+.scroll-element.scroll-y.scroll-scrolly_visible {
+    display: block;
+}
+ 
+.scroll-element .scroll-bar,
+.scroll-element .scroll-arrow {
+    cursor: default;
+}
+ 
+.scroll-textarea {
+    border: 1px solid #cccccc;
+    border-top-color: #999999;
+}
+.scroll-textarea > .scroll-content {
+    overflow: hidden !important;
+}
+.scroll-textarea > .scroll-content > .chatbox_body {
+    border: none !important;
+    box-sizing: border-box;
+    height: 100% !important;
+    margin: 0;
+    max-height: none !important;
+    max-width: none !important;
+    overflow: scroll !important;
+    outline: none;
+    padding: 2px;
+    position: relative !important;
+    top: 0;
+    width: 100% !important;
+}
+.scroll-textarea > .scroll-content > .chatbox_body::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+.textarea-scrollbar.scrollbar-outer {
+    height: 400px;
+    margin-right: 7px;
+    background-color: lightblue;
+    overflow-y: scroll;
+}
+ button.chatbox__form-submit.msg-btn {
+    position: absolute;
+       right: 10px;
+    width: 90px;
+    float: right;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+button.chatbox__form-submit.u-btn{
+    position: absolute;
+    right: 9px;
+    top: 478px;
+    background-color: lightgray;
+    border-block: revert;
+  
+}
+.img-send {
+    width: 30px;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body class="chat-body">
+
+<section class="chatbox">
+<div class="chat-sec">
+  <div class="chatbox__header">
+    <h1 class="chatbox__title">ChatBot</h1>
+  </div>
+
+<div class="box"></div>
+    <div class="boxed">
+      <div>
+        <div id="chatbox" class="textarea-scrollbar scrollbar-outer">
+          <img
+            src="{{url_for('static', filename='DSAI_Tbot_Logo.jpg')}}"
+            alt="chatbot"
+            style="width:80px;height:60px;"
+          />
+          <p class="botText">
+            <span>Hi! I'm your personal ChatBot</span>
+          </p>
+        </div>
+        <div  id="userInput">
+          <input id="textInput" type="text" name="msg" placeholder="Message">
+		      <button id="buttonInput" class="chatbox__form-submit u-btn"><img class="img-send" src="{{url_for('static', filename='DSAI_Tbot_Send.png')}}"></button>
+		   </input>
+        </div>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- End of .chatbox -->
+</body>
+
+<script>
+      function getBotResponse() {
+          var rawText = $("#textInput").val();
+          var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
+          $("#textInput").val("");
+          $("#chatbox").append(userHtml);
+          document.getElementById("userInput").scrollIntoView({ block: "start", behavior: "smooth" });
+          $.get("/get", { msg: rawText }).done(function(data) {
+          var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+          $("#chatbox").append(botHtml);
+          document.getElementById("userInput").scrollIntoView({ block: "start", behavior: "smooth" });
+          });
+        }
+        $("#textInput").keypress(function(e) {
+          if (e.which == 13) {
+            getBotResponse();
+          }
+        });
+        $("#buttonInput").click(function() {
+            getBotResponse();
+    });
+</script>
+<script>
+jQuery(document).ready(function(){
+    jQuery('.textarea-scrollbar').scrollbar();
+});
+
+</script>
+
+</html>

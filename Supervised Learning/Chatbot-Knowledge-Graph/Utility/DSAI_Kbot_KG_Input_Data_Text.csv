@@ -1,0 +1,231 @@
+sentence
+Anthony is throwing the football.
+She accepted the job offer.
+He thought about his stupid mistake in the test.
+John visited his friend for a while and then went home.
+The dog ran across the yard.
+She left in a hurry.
+She yelled when she hit her toe.
+The cat sat by the window.
+I'll play this song on my guitar.
+He hit a home run at the last game.
+"In the summer, we will swim in our pool."
+Will you help me with the laundry?
+He rode his new bike around the block for hours.
+The horse trotted along the trail.
+We ate dinner then walked around the park.
+Did you fix the mistake in your homework?
+She waited for her friend at the mall.
+She lay on the couch and slept there all night.
+Close the door!
+The bird sings a cheery song every morning.
+The teacher reads a book to her students then asks them questions about the story.
+The roof on the house leaks.
+The lightning struck the tree.
+They bought a new house.
+He is begging to save her mother’s life in front of the doctor.
+David is writing a novel about wildlife heritage.
+You are coming right now at the seminar.
+She is smiling in front of the audience.
+They are selling their company’s products to people.
+He apologized to the teachers.
+He left this bag here and went outside.
+He is sitting next to you.
+Everyone likes to watch a magic show.
+America is a developed nation.
+You are always trying to jump over the wall.
+We are knowing each other.
+Alcohol causes Cancer.
+He is riding his new bike all-day.
+We are participating in the cultural program.
+That Aeroplane was flying above the clouds.
+The police are asking about the incident that happened last night.
+I am not feeling well to go to the stage.
+This museum will close after an hour.
+Andrew is playing basketball at the college tournament.
+Hank is a cowboy
+ He lives on a farm
+ He has a horse named Ginger
+ Hank loves Ginger
+ He rides Ginger every day
+" Sometimes they walk slowly, and sometimes they run fast"
+ They always have a good time
+Ginger is Hank's horse
+ She is light brown
+ Her tail and mane are dark brown
+ She is three years old
+ She lives in the stable by the house
+Ginger waits for Hank every morning
+ She enjoys their time together
+" Often, Hank gives her apples"
+" After long rides, Hank always washes and brushes Ginger"
+ He usually brushes her tail
+ Then he gives her food and fresh water
+ Ginger loves Hank
+Stacy is a singer
+ She loves to sing
+ She is in a band
+ She sings in the band
+ She is the lead singer
+ Sometimes she plays the piano
+Chad is Stacy's boyfriend
+ He is also in the band
+ He stands next to Stacy
+ He plays the electric guitar
+ Sometimes Chad sings with Stacy
+Dean is Chad and Stacy's friend
+ He is also in the band
+ He stands next to Chad
+ He plays bass guitar
+ Dean does not sing
+ He does not like to sing
+The band practices three times a week
+ They mostly perform at nightclubs
+ Sometimes they sing at weddings
+ They are a very good band
+Jim Sullivan likes music
+ He plays many instruments
+" He plays the piano, clarinet, saxophone, trumpet, guitar, and bagpipes"
+ The bagpipes are his favorite instrument to play
+ Not very many people play the bagpipes
+Jim plays the bagpipes for celebrations
+ He also plays the bagpipes in parades
+ The audience listens to the bagpipes
+ They clap for Jim
+ They enjoy the music of the bagpipes
+Jim also teaches people how to play the bagpipes
+ He gives lessons to children and adults
+ He teaches them the history of the bagpipes
+ He teaches them how to play music with the bagpipes
+ Jim is a good teacher
+"Robert Hughes lives in Atlanta, Georgia"
+" He lives with his wife, Patricia"
+" They live with their two children, Sam and Lana"
+ Robert loves his family
+Robert works as a police officer in Atlanta
+ He likes his job
+ He is a good police officer
+ Robert is a police officer because he likes to help people
+Robert protects the citizens of Atlanta
+ He solves crimes and catches criminals
+ He keeps the citizens safe
+Sometimes he visits the schools
+ He talks to students
+ The students like Robert
+ Officer Robert Hughes is a hero in Atlanta
+Now Janet is in her house
+ She is sitting on a wooden chair
+ She is holding a coat
+ She is fixing it
+ James is Janet's husband
+ He is sitting in front of her
+ He is fixing clothes too
+Elizabeth is sitting next to James
+ She is Janet's sister
+ Right now she is helping Janet and James
+ They are working together
+ They are fixing clothes
+At this moment a man is coming in
+ He is wearing dark clothes
+ He is carrying a pile of clothes
+ They are all working very hard
+"It was the same man, she was sure of it."
+Rain Prediction in Australia
+"In this article, we will be using Rain in Australia Dataset from Kaggle."
+The problem is to predict whether it will rain tomorrow or not given the weather conditions of today.
+We will be using Decision Tree Classifier in this article
+Predict next day rain by training classification models on the target variable
+The dataset is taken from Kaggle.
+This dataset contains about 10 years of daily weather observations from many locations across Australia
+"RainTomorrow is the target variable to predict It means did it rain the next day, Yes or No?"
+This column is Yes if the rain for that day was 1mm or more
+Let's import the necessary libraries
+Let's download the dataset and import it using pandas function read_csv()
+"We'll look at the info of the dataset,"
+There are 145460 samples out of which there are 142193 samples whose 'RainTomorrow' column is non-null
+"Therefore, we can just remove the rows in which the 'RainTomorrow' column is null since there will be no significant information loss"
+Let us now learn what time-series data is !
+"Time series data is a collection of observations obtained through repeated measurements over time Plot the points on a graph, and one of your axes would always be time"
+"The given data is a time series data and is in chronological form While working with chronological data, it's often a good idea to separate the training, validation and test sets with time, so that the model is trained on data from the past and evaluated on data from the future"
+"We'll use the data till 2014 for the training set, data from 2015 for the validation set, and the data from 2016 & 2017 for the test set"
+The columns other than RainTomorrow are independent columns (input columns) while the RainTomorrow column is dependent column (output columns)
+Identify inputs and outputs
+"From the info of the dataset shown above, the Dtype column specifies the datatype of the column values Different preprocessing steps are to be carried out for categorical data and numerical data Hence we'll identify the columns which are numerical and which are categorical for preprocessing purposes"
+"As we have discussed already that preprocessing steps are to be done separately for numerical and categorical columns First, let's impute the numerical columns with mean of the corresponding columns"
+Below code displays the counts of null values in numerical columns sorted in descending order
+Below code imputes the numerical columns with their mean respectively
+Let's learn the necessity of scaling before proceeding
+"Feature Scaling is a technique to standardize the independent features present in the data in a fixed range It is performed during the data pre-processing to handle highly varying magnitudes or values or units If feature scaling is not done, then a machine learning algorithm tends to weigh greater values, higher and consider smaller values as the lower values, regardless of the unit of the values"
+"Example: If an algorithm is not using the feature scaling method then it can consider the value 3000 meters to be greater than 5 km but that’s actually not true and in this case, the algorithm will give wrong predictions So, we use Feature Scaling to bring all values to the same magnitudes and thus, tackle this issue"
+We'll use Min-Max Scaling to perform feature scaling 
+Let's now learn what is encoding and why it is needed?
+Encoding categorical data is a process of converting categorical data into integer format so that the data with converted categorical values can be provided to the models to give and improve the predictions
+Every machine learning models learns only from numerical data which is why it is needed to convert the categorical data to integer format during preprocessing
+"The categorical columns in our dataset are,"
+"Before encoding the categorical columns it is must to make sure that there are no null values in those columns because those columns will also be encoded which doesn't make sense Therefore, the null values in categorical columns should be imputed before encoding the columns This is similar to imputing numerical columns followed by  scaling them"
+Below code displays the count of null values in the categorical columns
+"It is also to be noted, imputing is done by considering mean in numerical columns But this is not the case for categorical columns For categorical columns either mode can be considered or some other dummy value can be substituted in place of null values Here, let's substitue 'Unknown' in place of null values"
+"Coming back, after imputing the null values let's perform encoding"
+"A decision tree in machine learning works in exactly the same way, and except that we let the computer figure out the optimal structure & hierarchy of decisions, instead of coming up with criteria manually"
+"Being a classification task, let's use DecisionTreeClassifier algorithm !!!"
+"Now, we have trained our classifier with the training data"
+Evaluation
+"To evaluate the training process, let's check how well the model trained with the training data"
+The counts of predicted result shows that our model has predicted more 'No' for the target column RainTomorrow than that of 'Yes'
+"Now, let's calculate the accuracy of our model in the training data itself"
+"Whooooaa !!! The training set accuracy is close to 100%! But we can't rely solely on the training set accuracy, we must evaluate the model on the validation set too This is because our model should be trained  in a generalized way ie, it should be able to predict output which is not present in training data "
+Let's also calculate the percentage of 'Yes' and 'No' in validation data
+"The above result shows that, there are 788% 'No' and 21% 'Yes' in validation data This proves that, if it is predicted 'No' for all the validation data, it would still be 788% accurate in the result (since there are 788% 'No' in the validation data)"
+"Therefore, our model should be considered learning only if it exceeds 788% accuracy because even predicting 'No' always using a dumb model gives 788% accuracy"
+Conclusion :
+The training accuracy is 100%
+The validation accuracy is 79%
+Percentage of No in validation data is 788% 
+"Therefore, our model is only marginally better then always predicting ""No"""
+The reason for this is that the training data from which our model learnt is skewed towards 'No'
+Note : Decision trees overfits !!!
+Visualization of Decision Tree
+The initial 23 columns (or features) after encoding became 119 features Decision Trees can find importance of features by itself Below are some of the importances of 119 features(total number of features in the training dataset) 
+Note : Only some feature importances are displayed but the above code displays for all features
+Let's view importances of top 20 features
+"Since we have found out that our model is only marginally better than a dumb model because of overfitting, we should modify some of the parameters of DecisionTreeClassifier to reduce overfitting"
+"The DecisionTreeClassifier accepts several arguments, some of which can be modified to reduce overfitting"
+By reducing the tree maximum depth can reduce overfitting Maximum depth (default) is 48 which is reduced to 3 to reduce overfittting as below
+Since the max_depth value without manual constraint for which our model overfitted is 48
+And the max_depth value obviously can't be 0 (or lesser)
+So let's find what the best value of max_depth would be by trial and error method and use the max_depth for
+which the errors of train and validation dataset is optimal
+"From the dataframe, it can be seen that the training accuracy increases with increase in max_depth It is also to be noted that validation accuracy first increases and then decreases"
+Tuning Graph
+Let'us visualise the training accuracy and validation accuracy with different max_depths
+From the graph it can also be seen that training accuracy increases with increase in max_depth
+while validation accuracy first increases (till max_depth = 7) and then decreases
+"Therefore, optimal max_depth is 7"
+Build Decision Tree with max_depth = 7
+Tuning max_leaf_nodes
+Another way to control the size of complexity of a decision tree is to limit the number of leaf nodes This allows branches of the tree to have varying depths Let's limit the number of leaf nodes to 128 at maximum 
+Let's see the accuracies when max_leaf_nodes was set to 128 (at maximum) 
+"Now, let's train our DecisionTreeClassifier with max_leaf_nodes = 128 and max_depth = 6,"
+"Let's now use the trial and error method considering the two parameters,"
+Tuning Graph
+Let'us visualise the training accuracy and validation accuracy with different max_depths and max_leaf_nodes = 128
+It seems max_depth = 9 and max_leaf_nodes = 128 is the optimal hyperparameters
+"Now, let's train our classifier with the best found hyperparameters,"
+About the Author :
+"Hiii, I'm Avinash, pursuing a Bachelor of Engineering in Computer Science and Engineering from Mepco Schlenk Engineering College, Sivakasi I'm currently working as a Data Science Intern at @DeepSphereAI I'm an AI enthusiast and Open-Source contributor"
+"On an average day, a lot of things can happen: people go to work"
+ Kids study in school
+ Animals hunt for food
+ Friends talk to each other
+ All of these sentences express basic ideas about everyday events
+" However, we can also use sentences to express more complicated ideas: citizens can own property"
+ People will chase their dreams to get what they want
+ Both our simple sentences and complex sentences have something in common: they all use verbs
+"Verbs are very important in grammar, and we actually use many different types of verbs when we talk about what things do or how things are"
+" Because they do so much for us, it is only fair that we take the time to learn a little more about verbs and some of the common types of verbs used in English"
+"When we write sentences or clauses, we need to include a verb"
+ What is a verb? A verb is a word that we use to refer to actions (what things do) and states of being (how things are)
+" For example, the words describe, eat, and rotate are verbs"
+" As you are about to see, verbs come in a lot of different types that don’t all behave the same way"
+" When using proper grammar, it is important that you use verbs correctly"
+" So, we are going to explore the many different types of verbs that we use and how to successfully use them to create great, clear sentences"
