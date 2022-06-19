@@ -78,7 +78,7 @@
 ## Semi-Supervised Learning
 |Title|Keywords|Dataset|
 |:---|:---|:---|
-|[Clustering-Classification-Fashion Dataset]()|Clustering-Classification-Image-VGG16-Transfer Learning-Keras-KMeans-Principal Component Analysis (PCA)-Convolutional Neural Network (CNN)|[Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)|
+|[Clustering-Classification-Fashion Dataset](https://github.com/avinash-218/AI-Playground/tree/master/Semi-Supervised%20Learning/Clustering-Classification-Fashion%20Dataset)|Clustering-Classification-Image-VGG16-Transfer Learning-Keras-KMeans-Principal Component Analysis (PCA)-Convolutional Neural Network (CNN)|[Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)|
 
 ## Reinforcement Learning
 
