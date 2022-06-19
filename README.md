@@ -75,6 +75,11 @@
 |[Shop-Products-Association-Eclat](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Shop-Products-Association-Eclat)|Association Rule-Eclat|[Market Basket Optimisation](https://www.kaggle.com/datasets/devchauhan1/market-basket-optimisationcsv)|
 |[Style-Transfer](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Style-Transfer)|Style Transfer-Transfer Learning-VGG19-Imagenet-Deep Neural Network(DNN)|Custom Dataset|
 
+## Semi-Supervised Learning
+|Title|Keywords|Dataset|
+|:---|:---|:---|
+|[Clustering-Classification-Fashion Dataset]()|Clustering-Classification-Image-VGG16-Transfer Learning-Keras-KMeans-Principal Component Analysis (PCA)-Convolutional Neural Network (CNN)|[Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)|
+
 ## Reinforcement Learning
 
 ### Under Construction....
