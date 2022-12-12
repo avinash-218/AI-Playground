@@ -82,4 +82,6 @@
 
 ## Reinforcement Learning
 
-### Under Construction....
+|Title|Keywords|Dataset|
+|:---|:---|:---|
+|[Upper-Confidence-Bound](https://github.com/avinash-218/AI-Playground/tree/master/Reinforcement%20Learning/Upper%20Confidence%20Bound)|Upper Confidence Bound (UCB)|Custom Dataset|
