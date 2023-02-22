@@ -68,9 +68,7 @@
 |[Deep-Dream](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Deep-Dream)|Image-Convolutional Neural Network (CNN)-Transfer Learning-InceptionV3|Custom Dataset|
 |[Encode-Decode-Fashion-MNIST-Convolutional-Autoencoders](https://github.com/avinash-218/AI-Playground/tree/master/Unsupervised%20Learning/Encode-Decode-Fashion-MNIST-Convolutional-Autoencoders)|Convolution-Encode-Decode-Image|Fashion MNIST|
 |[Encode-Decode-MNIST-Digits-Autoencoders](https://github.com/avinash-218/AI-Playground/tree/master/Unsupervised%20Learning/Encode-Decode-MNIST-Digits-Autoencoders)|Artificial Neural Network(ANN)-Encode-Decode-Image|Fashion MNIST|
-
-|[Fashion-Generation-GAN]()|Artificial Neural Network(ANN)-Generative Adversarial Network (GAN)-Image-|
-
+|[Fashion-Generation-GAN](https://github.com/avinash-218/AI-Playground/tree/master/Unsupervised%20Learning/Fashion-Generation-GAN)|Artificial Neural Network(ANN)-Generative Adversarial Network (GAN)-Image-Wandb|[Fashion Product Images Dataset (Small)](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small)<br><br>[Fashion Product Images Dataset (Big)](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)|
 |[Generating-Images-From-Text-Transfer-Learning-CLIP](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Generating-Images-From-Text-Transfer-Learning-CLIP)|CLIP-Generative Adversarial Network (GAN)-Image-Video|Custom Dataset|
 |[Iris-Clustering-Dimensionality-Reduction](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/Iris-Clustering-Dimensionality-Reduction)|Dimensionality Reduction-KMeans-DBScan-Principal Component Analysis (PCA)-Elbow Method|Iris Dataset|
 |[MNIST-Digits-GAN](https://github.com/avinash-218/ML-Playground/tree/master/Unsupervised%20Learning/MNIST-Digits-GAN)|Image-Generative Adversarial Network (GAN)-Torch-Wandb-Deep Neural Network(DNN)|MNIST Digits|
