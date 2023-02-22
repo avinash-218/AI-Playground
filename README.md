@@ -7,6 +7,9 @@
 |[Annual-Medical-Expense-Prediction-Linear-Regression](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Annual-Medical-Expense-Prediction-Linear-Regression)|Linear Regression-SGDRegressor-Data Analysis-Visualization-Correlation Analysis-Feature Selection(Brute)-Multiple Regression-Feature Scaling|[Medical Cost Personal Datasets](https://www.kaggle.com/datasets/mirichoi0218/insurance)|
 |[Bank-Customer-Retainment-Prediction-ANN](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Bank-Customer-Retainment-Prediction-ANN)|Artificial Neural Network(ANN)-Classification-Grid Search|[Churn Modelling](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
 |[Beer-Score-Prediction-Multiple-Linear-Regression](https://github.com/avinash-218/ML-Playground/tree/master/Supervised%20Learning/Beer-Score-Prediction-Multiple-Linear-Regression)|Linear Regression|[Beer Scores](https://www.kaggle.com/datasets/ssiddharth408/beer-scores)|
+
+|[Car-Resale-Value-Prediction]()|Regression-User_Interface-Flask-IBM_Cloud-IBM_Watson-HTML-CSS-Wandb|[Custom Dataset](https://www.kaggle.com/datasets/ravinash218/naalaiya-thiran)|
+
 |[Chatbot-Knowledge-Graph-RDF](https://github.com/avinash-218/AI-Playground/tree/master/Supervised%20Learning/Chatbot-Knowledge-Graph-RDF)|RDF-Knowledge Graph|Custom Dataset|
 |[Chatbot-Text-ANN](https://github.com/avinash-218/AI-Playground/tree/master/Supervised%20Learning/Chatbot-Text-ANN)|Artificial Neural Network (ANN)-Natural Language Processing (NLP)-Natural Language Toolkit (NLTK)-Tkinter-Flask|Custom Dataset|
 |[Chatbot-Voice-ANN](https://github.com/avinash-218/AI-Playground/tree/master/Supervised%20Learning/Chatbot-Voice-ANN)|Artificial Neural Network (ANN)-Natural Language Processing (NLP)-Google Text To Speech(GTTS)-Speech Recognition-Streamlit|Custom Dataset|
